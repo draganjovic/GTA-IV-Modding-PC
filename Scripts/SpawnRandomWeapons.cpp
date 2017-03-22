@@ -48,5 +48,5 @@ void CreateRandomPickupAroundPlayer()
 
     Blip blip = pickup.AttachBlip();
     blip.Name = pickupSelection == 0 ? "Weapon" : pickupSelection == 1 ? "Health" : "Armour";
-    blip.Color = pickupSelection == 0 ? BlipColor.Orange : pickupSelection == 1 ? BlipColor.LightRed : BlipColor.Cyan;//you can use BlipIcon if you like, I decided to just use colors for some reason
+    blip.Color = pickupSelection == 0 ? BlipColor.Orange : pickupSelection == 1 ? BlipColor.LightRed : BlipColor.Cyan;
     //pickupList.Add(pickup); pickupBlipList.Add(blip);

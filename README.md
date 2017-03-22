@@ -1,2 +1,2 @@
-# GTA-IV-Modding-PC-
+# GTA-IV-Modding-PC
 Script Mods for GTA IV (PC Version)

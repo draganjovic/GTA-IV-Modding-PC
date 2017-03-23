@@ -1,3 +1,6 @@
+#include <iostream>
+
+
 void CreateRandomPickupAroundPlayer()
 {
     Random random = new Random();
@@ -49,4 +52,9 @@ void CreateRandomPickupAroundPlayer()
     Blip blip = pickup.AttachBlip();
     blip.Name = pickupSelection == 0 ? "Weapon" : pickupSelection == 1 ? "Health" : "Armour";
     blip.Color = pickupSelection == 0 ? BlipColor.Orange : pickupSelection == 1 ? BlipColor.LightRed : BlipColor.Cyan;
-    //pickupList.Add(pickup); pickupBlipList.Add(blip);
+    pickupList.Add(pickup); pickupBlipList.Add(blip);
+    
+    int main()
+    {
+        return 0;
+    }

@@ -12,7 +12,7 @@ void UnlimitedAmmo()
   switch (UnlimitedAmmo)
   {
       case 0:
-          switch (episode == GameEpisode.GTAIV ? (random.Next(0, 9)) : episode == GameEpisode.TBOGT ? (random.Next(0, 2) == 0 ? random.Next(0, 9) : random.Next(9, 18)) : (random.Next(0, 2) == 0 ? random.Next(0, 9) : random.Next(18, 23)))
+          switch (episode == GameEpisode.GTAIV ? (random.Next(0, 9)))
           {
               case 0: ammo = Ammo(Weapon.Handgun_DesertEagle, 99999999); break;
               case 1: ammo = Ammo(Weapon.SMG_MP5, 99999999); break;

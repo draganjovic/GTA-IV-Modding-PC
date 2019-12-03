@@ -17,7 +17,7 @@ void UnlimitedAmmo()
               case 0: ammo = Ammo(Weapon.Handgun_DesertEagle, 99999999); break;
               case 1: ammo = Ammo(Weapon.SMG_MP5, 99999999); break;
               case 2: ammo = Ammo(Weapon.Shotgun_Baretta, 99999999); break;
-              case 3:
+              case 3: ammo = Ammo(Weapon.M4_Carbine, 99999999); break;
               case 4:
               case 5:
               case 6:
